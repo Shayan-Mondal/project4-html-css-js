@@ -1,0 +1,41 @@
+.form{
+    border-color: rgb(13, 13, 70);
+    border-radius: 375px;
+    font-style: italic;
+    font-family: cursive;
+    padding-left: 18px;
+    padding-right: 16px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+#h{
+    color: rgb(7, 7, 46);
+    text-shadow: 3px 3px 4px cornflowerblue;
+    
+}
+#hi{
+    margin-top: 15px;
+    color: rgb(109, 22, 22);
+    text-shadow: 3px 3px 4px rgb(189, 115, 115);
+}
+#book {
+    border-radius: 375px;
+    border-color: whitesmoke;
+    padding-left: 18px;
+    padding-right: 16px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    background-color: rgb(17, 16, 16);
+    color: whitesmoke;
+    font-style: italic;
+    font-family: cursive;
+}
+#book:hover{
+    background-color: rgb(231, 45, 12);
+    color: black;
+    cursor: grabbing;
+}
+#formm{
+    padding-left: 18px;
+}

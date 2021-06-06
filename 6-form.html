@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="6.js"></script>
+    <link rel="stylesheet" href="6.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h">Vehicle Booking</h1>
+    
+        <form id="formm" onsubmit="event.preventDefault(); register()">
+            <div>
+              <input id="name" class="form" type="text" placeholder="Enter your name.." required>
+            </div>
+            <div>
+                <input id="addhar" class="form" type="text" placeholder="Enter your Addhar" required>
+            </div>
+            <div>
+                <input id="vehicle" class="form" type="text" placeholder="Enter the vehicle name" required>
+            </div>
+            <div>
+                <input id="bookstartdate" class="form" type="text" placeholder="Enter booking Start date" required>
+            </div>
+            <div>
+                <input id="bookenddate" class="form" type="text" placeholder="Enter booking End date" required>
+            </div>
+            <div>
+                <input id="book" type="submit" value="Book">
+            </div>
+
+        </form>
+    
+   <h4 id="hi">Booking List</h4>
+    <div id="parent">
+       
+    </div>
+</body>
+</html>
